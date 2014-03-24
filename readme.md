@@ -1,1 +1,1 @@
-The python version of [this project](https://github.com/thanthese/pangram). Notably different in that (1) it actually works, and (2) it was *much* easier to write.
+The python version of [this project](https://github.com/thanthese/pangram). Notably different in that (1) it actually works, (2) it was *much* easier to write, and (3) it runs quite a bit slower (but still fast enough).
