@@ -21600,7 +21600,6 @@ espresso
 espressos
 espy
 espying
-esq
 esquire
 esquires
 essay
@@ -50191,7 +50190,6 @@ qantas
 qatar
 qingdao
 qiqihar
-qom
 qua
 quaalude
 quack
