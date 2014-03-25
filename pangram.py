@@ -52,9 +52,27 @@ def find_pangrams(path):
     print len(words), "with unique letters"
     anagrams = calc_anagrams(words)
     words = anagrams.keys()
+    words = special_order_words(words)
     print len(words), "anagrams"
 
     recur(set(), [], words, anagrams)
+
+
+def special_order_words(words):
+    q, rest = separate_by(words, 'q')
+    z, rest = separate_by(rest, 'z')
+    return sorted(q) + sorted(z) + sorted(rest)
+
+
+def separate_by(words, ch):
+    has = []
+    hasnot = []
+    for w in words:
+        if ch in w:
+            has.append(w)
+        else:
+            hasnot.append(w)
+    return has, hasnot
 
 
 def main():
